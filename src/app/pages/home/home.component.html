@@ -1,0 +1,103 @@
+<section class="section-gap">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+              <h1 class="display-4 fw-bold mb-4">Say Hello to <span class="highlight">Productivity.</span></h1>
+              <p class="lead">We build the simplest tools to help people collaborate and share experiences. We truly believe that providing easy-to-use apps will contribute to successful transformations.</p>
+          </div>
+          <div class="col-lg-6 text-center">
+              <img src="assets/images/home/hero-main.svg" class="img-fluid" alt="Productivity Hero" style="max-width: 90%;">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-light-gray section-gap">
+  <div class="container">
+    <h2 class="text-center mb-5 company-heading">Trusted by Many Companies Worldwide</h2>
+    <div class="customer-logos">
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Pfizer_logo.svg" class="customer-logo" alt="Pfizer">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Heinz-logo.jpg" class="customer-logo" alt="Heinz">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/vodafone.png" class="customer-logo" alt="Vodafone">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/hm-logo.png" class="customer-logo" alt="H&M">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/astrazeneca-logo.png" class="customer-logo" alt="AstraZeneca">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Trello_logo.png" class="customer-logo" alt="Trello">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-gap alternate">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+              <img src="assets/images/home/boost-productivity.svg" class="img-fluid" alt="Boost Productivity">
+          </div>
+          <div class="col-lg-6">
+              <h2 class="display-5 fw-bold mb-4">
+                  <i class="bi bi-graph-up feature-icon"></i>
+                  Boost your Teams <span class="highlight">Productivity</span>
+              </h2>
+              <p class="lead">Our powerful apps bring together collaborative tools into one simple and easy-to-use environment delivering a seamless productivity space to support your business in its journey towards a modern workplace.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-light-gray section-gap">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+              <h2 class="display-5 fw-bold mb-4">
+                  <i class="bi bi-shield-check feature-icon"></i>
+                  Security is our <span class="highlight">Priority</span>
+              </h2>
+              <p class="lead">We take your security as our priority, that's why all of our applications store data in your Jira instance and never take any data outside to our cloud. Making your data <strong>100%</strong> secure.</p>
+          </div>
+          <div class="col-lg-6 text-center">
+              <img src="assets/images/home/security.svg" class="img-fluid" alt="Security Illustration">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section-gap alternate">
+  <div class="container">
+      <h2 class="display-5 fw-bold text-center mb-5">
+          <i class="bi bi-magic feature-icon"></i>
+          <span class="highlight">Enhance</span> teamwork and knowledge.
+      </h2>
+      <p class="lead text-center mb-5">Check out our apps</p>
+      <div class="row">
+          <div class="col-md-6 mb-4" *ngFor="let app of apps">
+              <div class="app-box d-flex align-items-start h-100">
+                  <img [src]="app.icon" class="me-3" style="width: 70px; height: 70px;" alt="{{ app.name }} icon">
+                  <div>
+                      <h3 class="h5 mb-2">{{ app.name }}</h3>
+                      <p class="mb-0">{{ app.about }}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-light-gray section-gap">
+  <div class="container">
+      <h2 class="display-5 fw-bold text-center mb-5">
+          <i class="bi bi-people feature-icon"></i>
+          What <span class="highlight">Customers</span> say about us.
+      </h2>
+      <app-testimonials></app-testimonials>
+  </div>
+</section>

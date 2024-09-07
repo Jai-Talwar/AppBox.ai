@@ -1,0 +1,123 @@
+// Variables
+$primary-color: #0052cc;
+$accent-color: #ffd700;
+$text-color: #333333;
+
+:host {
+  display: block;
+  font-family: 'Arial', sans-serif;
+  color: $text-color;
+}
+
+.highlight {
+  color: $primary-color;
+  position: relative;
+  display: inline-block;
+  padding: 0 6px; /* Increased padding */
+  
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px; /* Increased height */
+    z-index: -1;
+    transform: skew(-12deg);
+  }
+}
+
+.section-gap {
+  padding: 4.4rem 0; /* Increased padding */
+}
+
+.company-heading {
+  color: $primary-color;
+  font-size: 2.5rem; /* Increased font size */
+}
+
+.customer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem; /* Increased gap */
+
+  .logo-wrapper {
+    flex: 0 1 calc(16.666% - 2.5rem); /* Increased flex basis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px; /* Increased min-height */
+  }
+
+  .customer-logo {
+    max-width: 100%;
+    max-height: 60px; /* Increased max-height */
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+
+    &:hover {
+      filter: none;
+      opacity: 1;
+    }
+  }
+}
+
+.feature-icon {
+  font-size: 3rem; /* Increased font size */
+  color: $primary-color;
+}
+
+.app-box {
+  background-color: #ffffff;
+  border-radius: 12px; /* Increased border-radius */
+  padding: 1.75rem; /* Increased padding */
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1); /* Increased shadow */
+
+  &:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2); /* Increased shadow on hover */
+    transform: translateY(-6px); /* Increased transform */
+  }
+}
+
+.alternate {
+  background-color: #e8f1ff;
+}
+
+@media (max-width: 992px) {
+  .customer-logos {
+    .logo-wrapper {
+      flex: 0 1 calc(33.333% - 2.5rem); /* Increased flex basis */
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .section-gap {
+    padding: 3.5rem 0; /* Increased padding */
+  }
+
+  .customer-logos {
+    .logo-wrapper {
+      flex: 0 1 calc(50% - 2.5rem); /* Increased flex basis */
+    }
+
+    .customer-logo {
+      max-height: 45px; /* Increased max-height */
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .customer-logos {
+    .logo-wrapper {
+      flex: 0 1 100%;
+    }
+  }
+}

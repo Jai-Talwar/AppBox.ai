@@ -1,0 +1,50 @@
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid ">
+      <a class="navbar-brand d-flex align-items-center p-2 mx-4" href="https://appbox.ai">
+        <img class="logo me-2" src="assets/images/logo-box.svg" alt="Logo" />
+        <h1 class="h3 mb-0 fw-bold ">
+          <span class="fw-bolder text-primary">App</span>
+          <span class="fw-normal" style="color: #66a3ff;">Box.ai</span>
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end mx-4" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item items">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item items">
+            <div ngbDropdown class="d-inline-block">
+              <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Apps</a>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <a routerLink="../apps/1224000/checklist-for-jira-cloud" ngbDropdownItem>Checklist for Jira</a>
+                <a routerLink="../apps/1224236/backlog-prioritization-for-jira-pro" ngbDropdownItem>Backlog
+                  Prioritization for Jira</a>
+                <a routerLink="../apps/1225439/risk-analyzer-for-jira" ngbDropdownItem>Risk Analyzer for Jira</a>
+                <a routerLink="../apps/1228072/response-templates-for-jira" ngbDropdownItem>Response Template for
+                  Jira</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link" routerLink="../contact">Contact</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link" href="https://support.appbox.ai/" target="_blank">Support</a>
+          </li>
+          <li class="nav-item btn-link">
+            <a routerLink="../schedule-call">
+              <button class="btn">
+                Book a Demo
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

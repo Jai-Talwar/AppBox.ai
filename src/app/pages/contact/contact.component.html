@@ -1,0 +1,107 @@
+<section class="py-4 text-center container-lg">
+  <div class="row py-lg-4">
+    <div class="col-lg-6 mb-5 mb-lg-0 d-flex justify-content-center">
+      <img src="assets/images/contact/contact.svg" alt="Contact Image" style="width: 110%;" />
+    </div>
+    <div class="col-lg-6 mb-5 mb-lg-0 d-flex flex-column justify-content-center align-items-center">
+      <div class="herohead py-4 " style="text-align: left; font-size: 2.8rem;">
+        <h1>Every Hero Requires Unwavering Support</h1>
+      </div>
+      <div class="heropara my-3 " style="text-align: left; font-size: 1.2rem;">
+        Our skilled support team is committed to providing you with the expertise needed to navigate complex workflow challenges and technical obstacles. We are here to ensure you have the necessary assistance and resources to achieve your goals efficiently and effectively.
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="text-center container-lg my-5">
+  <div class="contact-section">
+    <h2 class="mb-4">Got a Specific Question?</h2>
+    <p class="mb-4">
+      Reach out to us for details and information at
+      <a href="mailto:support@appbox.ai" class="fw-bold text-primary">support@appbox.ai</a>
+    </p>
+    <div class="or-divider text-muted my-4">
+      <span>or</span>
+    </div>
+    <p class="mb-4">Create a support ticket with us</p>
+    <div class="contact-buttons">
+      <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/8">Checklist</a>
+      <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/10">Backlog Prioritization</a>
+      <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/12">Response Templates</a>
+      <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/11">Risk Register</a>
+    </div>
+  </div>
+</section> -->
+
+<section class="contact-section py-4 container-fluid second">
+  <div class="row py-lg-4 justify-content-center">
+    <div class="col-lg-7 mb-5 mb-lg-0 d-flex flex-column justify-content-center align-items-start ticket">
+      <h2 class="mb-4 large-heading">Got a Specific Question?</h2>
+      <p class="mb-4 large-paragraph">
+        Reach out to us for details and information at
+        <a [href]="'mailto:' + supportEmail" class="fw-bold text-primary">{{supportEmail}}</a>
+      </p>
+      <div class="or-divider text-muted my-4">
+        <span>or</span>
+      </div>
+      <p class="mb-4 large-paragraph">Create a support ticket with us</p>
+      <div class="contact-buttons">
+        <a *ngFor="let link of supportLinks" 
+           class="btn btn-warning btn-lg" 
+           [href]="link.url" 
+           target="_blank">
+          {{link.name}}
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-5 mb-lg-0 d-flex justify-content-center align-items-center">
+      <img src="https://cdn.prod.website-files.com/660a670c0b296d0efa132864/662b5a17ad7d5312c07d8766_home-docs.svg" 
+           alt="Support Documentation" 
+           class="support-image" />
+    </div>
+  </div>
+</section>
+
+<!-- <div class="col-lg-6 mb-5 mb-lg-0">
+  <h1>Contact</h1>
+  <p>
+    For more information, please contact us at
+    <a href="mailto:support@appbox.ai">support@appbox.ai</a>
+  </p>
+  <h2 class="text-muted py-3">or</h2>
+  <p>Create a support ticket with us</p>
+  <p>
+    <a class="btn btn-warning me-3" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/8">Checklist</a>
+    <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/10">Backlog Prioritization</a>
+  </p>
+  <p>
+    <a class="btn btn-warning me-3" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/12">Response Templates</a>
+    <a class="btn btn-warning" target="_blank" href="https://appbox.atlassian.net/servicedesk/customer/portal/11">Risk Register</a>
+  </p>
+</div> -->
+
+<section class="my-5 py-5 bg-light-gray section-gap">
+  <div class="container">
+    <h2 class="text-center mb-5 company-heading" style=" font-size: 2.5rem; font-weight: bolder;">Trusted by Many Companies Worldwide</h2>
+    <div class="customer-logos">
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Pfizer_logo.svg" class="customer-logo" alt="Pfizer">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Heinz-logo.jpg" class="customer-logo" alt="Heinz">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/vodafone.png" class="customer-logo" alt="Vodafone">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/hm-logo.png" class="customer-logo" alt="H&M">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/astrazeneca-logo.png" class="customer-logo" alt="AstraZeneca">
+      </div>
+      <div class="logo-wrapper">
+        <img src="../../../assets/images/logos/Trello_logo.png" class="customer-logo" alt="Trello">
+      </div>
+    </div>
+  </div>
+</section>

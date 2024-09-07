@@ -1,0 +1,421 @@
+{
+  "data": {
+    "marketplaceApp": {
+      "name": "Checklist for Jira Cloud. Enterprise",
+      "appKey": "com.appbox.ai.checklist.enterprise",
+      "appId": "1224000",
+      "entityStatus": "ACTIVE",
+      "slug": "checklist-for-jira-cloud-enterprise",
+      "tagline": "Enhance productivity. Create ToDo lists, acceptance criteria, definition of done or your own topics. Bonus - a personal checklist",
+      "privacyPolicyUrl": "https://appbox.ai/privacy-policy/",
+      "listingStatus": "PUBLIC",
+      "createdAt": "2020-11-19T03:38:30.844Z",
+      "marketingLabels": ["jira-servicedesk", "jira-software"],
+      "googleAnalyticsId": "UA-181882142-1",
+      "googleAnalytics4Id": null,
+      "summary": "Enhance productivity of Jira tickets. Create Todo list, acceptance criteria, definition of done or track your own tasks. Add default checklist to new issues automatically. With a bonus of your personal checklist. Checklist for Jira Cloud by Appbox.ai",
+      "jsdWidgetKey": null,
+      "categories": [
+        { "name": "Workflow", "__typename": "MarketplaceAppCategory" },
+        { "name": "Project management", "__typename": "MarketplaceAppCategory" },
+        { "name": "IT & helpdesk", "__typename": "MarketplaceAppCategory" },
+        { "name": "Tasks", "__typename": "MarketplaceAppCategory" }
+      ],
+      "wikiUrl": null,
+      "forumsUrl": null,
+      "isAtlassianCommunityEnabled": true,
+      "issueTrackerUrl": "https://support.appbox.ai/servicedesk/checklist",
+      "supportTicketSystemUrl": "https://support.appbox.ai/servicedesk/checklist",
+      "statusPageUrl": null,
+      "logo": {
+        "original": { "id": "297161b2-b67a-4f82-9754-c3cb92fc8500", "width": 198, "height": 197, "__typename": "MarketplaceImageFile" },
+        "highResolution": { "id": "26f5e712-a96e-40b0-8458-a5a1b35a31cf", "width": 144, "height": 143, "__typename": "MarketplaceImageFile" },
+        "__typename": "MarketplaceListingImage"
+      },
+      "reviewSummary": { "rating": 4.0, "count": 9, "__typename": "MarketplaceAppReviewSummary" },
+      "programs": null,
+      "__typename": "MarketplaceApp",
+      "publicCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1003012", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "privateCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1003011", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "publicServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "allServerDCAppVersions": { "totalCount": 0, "__typename": "MarketplaceAppVersionConnection" },
+      "productHostingOptions": ["CLOUD"],
+      "cloudAppVersions": {
+        "totalCount": 16,
+        "edges": [
+          {
+            "node": {
+              "buildNumber": "1003012",
+              "youtubeId": null,
+              "moreDetails": "<p>                                    \uD83D\uDC49Explore the product - <a href=\"https://checklist-playground.appbox.ai/?source=ent\">Live Demo</a> </p> <p>                                    Break a ticket into smaller items without creating multiple sub-tasks. stay organized, stay focused. Fully secure, all your data stays within your Jira Instance. </p> <ul>  <li>Templates to preload a checklist automatically.                                                <li>Organize items into tabs &amp; sections.                                                                  <li>Add description to items.                                                                  <li>Mark items mandatory.                                                                  <li>Workflow validation to finish all items before transition.                                                                  <li>Default status codes - To Do, InProgress, Blocked, Completed.                                                <li>Plus, create your own custom status codes.                                                                  <li><a href=\"https://support.appbox.ai/docs/checklist-for-jira-cloud/integration-automation/\">Integration with automation tools.</a>   <li>Track checklist change history                                                                  <li>Markdown editing.                                                                  <li>Smart tags.                                                                  <li>Custom permissions.                                                                  <li>Bonus - a <a href=\"https://support.appbox.ai/docs/personal-checklist-for-jira-cloud/personal-checklist-misc/personal-checklist-getting-started-in-jira/\">Personal Checklist</a> for each Jira user                            <li>Full Screen mode.                                                                  <li>Multilingual app.              <li>and more.                        </ul> <p>                                                \uD83D\uDCE2 - Want to try us before buying? Checkout the <a href=\"https://marketplace.atlassian.com/apps/1223660/checklist-for-jira-cloud-free?hosting=cloud&tab=overview&m=enttofree\">Free version</a> that supports all the Enterprise features with 1500 checklist items/month. </p> <p>                                          \uD83C\uDF81 New - Create upto 60 templates now. </p> <p>                            \uD83D\uDE80 <a href=\"https://support.appbox.ai/checklist-for-jira-cloud-release-notes/\">Release Notes</a> </p> <p>                                          ☂️ <a href=\"https://support.appbox.ai/servicedesk/checklist\">service desk</a> or <a href=\"mailto:support@appbox.ai\">email</a>. </p> <p>          \uD83D\uDD25 Top new vendor for 2021. </p>",
+              "paymentModel": "PAID_VIA_ATLASSIAN",
+              "learnMoreUrl": null,
+              "endUserLicenseAgreementUrl": "http://appbox.ai/eula-of-apps-from-appbox-ai/",
+              "documentationUrl": "https://support.appbox.ai/docs/checklist-for-jira-cloud/",
+              "purchaseUrl": null,
+              "isSupported": true,
+              "releaseDate": "2022-04-02T15:11:19.322Z",
+              "releaseNotes": "Minor version update",
+              "releaseSummary": "Minor version update",
+              "releaseNotesUrl": null,
+              "version": "1.3.12-AC",
+              "heroImage": null,
+              "highlights": [
+                {
+                  "title": "Manage issue tasks using checklist. Avoid subtasks",
+                  "caption": "Checklist in jira ticket - Enterprise. Automatically add checklist using templates in new tickets. Avoid sub-tasks.",
+                  "summary": "<p>        Focus on what's important. Create your issue checklist list within a ticket. Prevent ticket closure until required items are done using workflow validations. Full screen editor. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "14c6a3ce-f7c9-482e-aadf-a9e50a7e0251", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "ebd4fa9a-12ed-447a-9970-952d75bfda9a",
+                      "width": 580,
+                      "height": 329,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "310a3aa0-7006-435a-9e61-96ccea3c0f14",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "310a3aa0-7006-435a-9e61-96ccea3c0f14",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Checklist in jira ticket - Enterprise. Automatically add checklist using templates in new tickets. Avoid sub-tasks.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Organize better - use tabs and sections",
+                  "caption": "Organize checklist into tabs and sections. Mark items mandatory. Make checklist part of your workflow.",
+                  "summary": "<p>        Categorize items into topics, teams or phases using our inbuilt tabs and sections. Prioritize them by Reordering. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "5c2a44c3-5202-42a2-8c24-59e61f760da0", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "33c16920-315c-4ffd-b9e9-3504e5c6cf2d",
+                      "width": 580,
+                      "height": 329,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "cb9ab087-6a41-4d27-a634-238f434886b8",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "cb9ab087-6a41-4d27-a634-238f434886b8",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Organize checklist into tabs and sections. Mark items mandatory. Make checklist part of your workflow.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Use templates to pre load repetitive tasks.",
+                  "caption": "Checklist templates. Chose to make items mandatory or options. Use standard custom codes or create your own.",
+                  "summary": "<p>        Create templates like Definition of Done and Acceptance criteria. Assign them to all or specific issue types. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "1658152d-3960-456e-971d-ede54c1f9228", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "118ec2a0-86f0-488e-9431-22ac15518f33",
+                      "width": 580,
+                      "height": 329,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "93a69458-e87a-4acd-9ee7-ef2304d45cda",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "93a69458-e87a-4acd-9ee7-ef2304d45cda",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Checklist templates. Chose to make items mandatory or options. Use standard custom codes or create your own.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                }
+              ],
+              "screenshots": [
+                {
+                  "caption": "Works with Jira Service Management - ITSM | Employee Onboarding, Offboarding",
+                  "image": {
+                    "original": { "id": "966f8bd9-f0d1-41ec-94cf-b0b16d7bccc0", "width": 2880, "height": 1512, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "1bd7161a-4c2a-406f-b8d7-5727ee980333",
+                      "width": 1714,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Tabs and Sections",
+                  "image": {
+                    "original": { "id": "cdd199e3-b88c-4f7f-80f2-94db3d9b7349", "width": 1923, "height": 1202, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "08633c12-bd26-4031-8553-cd808c85ece6",
+                      "width": 1439,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Checklist in Right Panel",
+                  "image": {
+                    "original": { "id": "7e09ae0b-1d52-49b9-b987-f23a349d5e48", "width": 2149, "height": 1014, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "86bff3bb-ea1e-42d2-b190-a3b4e9218fb8",
+                      "width": 1840,
+                      "height": 868,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Show checklist progress on Jira Kanban board",
+                  "image": {
+                    "original": { "id": "53380101-8e0b-4bb8-a13c-1e4b5dfe2031", "width": 2879, "height": 1331, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "9594dd28-8e33-47de-9c87-151b00372187",
+                      "width": 1840,
+                      "height": 850,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Reset, Save as a template",
+                  "image": {
+                    "original": { "id": "9fbbc014-9de4-428e-80e8-5e0ca035da80", "width": 1840, "height": 1019, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "e447cae4-003c-454a-af9c-0e818973691c",
+                      "width": 1625,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Manage Templates inside project.",
+                  "image": {
+                    "original": { "id": "a43e136e-2026-473c-95c1-2227c4f8724a", "width": 2130, "height": 1097, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "22042cf2-fff1-4801-8cea-3d74d27e6594",
+                      "width": 1747,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Template assignment - all or specific issue types.",
+                  "image": {
+                    "original": { "id": "b9167a24-3821-43c1-b956-3a27b05d77b5", "width": 2125, "height": 1115, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "ae750483-73a0-4491-bf5e-d85f2263d738",
+                      "width": 1715,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Create your own item status codes.",
+                  "image": {
+                    "original": { "id": "2ed2a65a-a733-4db4-95b7-021010ac52c3", "width": 2129, "height": 1040, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "dbfb8b60-2163-419e-8fb9-1df952bd5c57",
+                      "width": 1840,
+                      "height": 898,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Checklist settings per project.",
+                  "image": {
+                    "original": { "id": "859c2a39-40f6-4fc1-8aeb-6cb5bb5d177b", "width": 2134, "height": 1349, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "c0e5d1c1-1f30-4087-abac-c32db5afbceb",
+                      "width": 1423,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Checklist fields within JQL.",
+                  "image": {
+                    "original": { "id": "01d08dca-a486-44e7-922a-84601ad274dd", "width": 2559, "height": 600, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Personal Checklist.",
+                  "image": {
+                    "original": { "id": "7cbc6178-f832-4f00-8afc-01a419f8ec5a", "width": 2677, "height": 1754, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "16dba289-57d4-4d5b-826e-6b5ad2d4a581",
+                      "width": 1373,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Personal Checklist settings.",
+                  "image": {
+                    "original": { "id": "36dba2f1-5399-4cbe-bd60-9b153ae5336d", "width": 2688, "height": 1749, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "221cfaed-39d9-4d22-b013-17fcd15e3b1f",
+                      "width": 1383,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                }
+              ],
+              "deployment": {
+                "__typename": "MarketplaceConnectAppDeployment",
+                "compatibleProducts": [
+                  {
+                    "id": "jira",
+                    "name": "Jira",
+                    "__typename": "CompatibleAtlassianCloudProduct",
+                    "atlassianProduct": {
+                      "name": "Jira",
+                      "hostingOptions": ["CLOUD", "SERVER", "DATA_CENTER"],
+                      "__typename": "MarketplaceSupportedAtlassianProduct"
+                    }
+                  }
+                ],
+                "scopes": [
+                  { "id": "ACT_AS_USER", "capability": "Act on a user's behalf, even when the user is offline", "__typename": "ConnectAppScope" },
+                  { "id": "ADMIN", "capability": "Administer the host application", "__typename": "ConnectAppScope" },
+                  { "id": "PROJECT_ADMIN", "capability": "Administer Jira projects", "__typename": "ConnectAppScope" },
+                  { "id": "DELETE", "capability": "Delete data from the host application", "__typename": "ConnectAppScope" },
+                  { "id": "WRITE", "capability": "Write data to the host application", "__typename": "ConnectAppScope" },
+                  { "id": "READ", "capability": "Read data from the host application", "__typename": "ConnectAppScope" }
+                ]
+              },
+              "__typename": "MarketplaceAppVersion"
+            },
+            "__typename": "MarketplaceAppVersionEdge"
+          }
+        ],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "serverAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "dataCenterAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "watchersInfo": { "isUserWatchingApp": true, "watchersCount": 13, "__typename": "MarketplaceAppWatchersInfo" },
+      "partner": {
+        "name": "Appbox.ai",
+        "id": "1218838",
+        "slug": "appbox-ai",
+        "partnerType": null,
+        "programs": { "isCloudAppSecuritySelfAssessmentDone": false, "__typename": "MarketplacePartnerPrograms" },
+        "partnerTier": null,
+        "support": {
+          "contactDetails": {
+            "websiteUrl": "https://support.appbox.ai",
+            "emailId": "support@appbox.ai",
+            "phoneNumber": null,
+            "__typename": "MarketplacePartnerSupportContact"
+          },
+          "availability": null,
+          "__typename": "MarketplacePartnerSupport"
+        },
+        "logo": {
+          "original": { "id": "3df68afa-2d78-4d59-98c5-c0b7e3f59ae8", "width": 444, "height": 444, "__typename": "MarketplaceImageFile" },
+          "highResolution": { "id": "4e025100-0ea4-4363-a6be-7edce8881f44", "width": 144, "height": 144, "__typename": "MarketplaceImageFile" },
+          "__typename": "MarketplaceListingImage"
+        },
+        "__typename": "MarketplacePartner"
+      },
+      "distribution": {
+        "downloadCount": 7,
+        "installationCount": 175,
+        "isPreinstalledInServerDC": false,
+        "isPreinstalledInCloud": false,
+        "__typename": "MarketplaceAppDistribution"
+      }
+    }
+  },
+  "extensions": {
+    "gateway": {
+      "request_id": "9b4cc3129b2c19b2",
+      "crossRegion": false,
+      "edgeCrossRegion": false,
+      "deprecatedFieldsUsed": [
+        "CompatibleAtlassianProduct.id : Use field `atlassianProduct.id` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/id)",
+        "CompatibleAtlassianProduct.name : Use field `atlassianProduct.name` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/name)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+footer {
+  background-color: #ffffff; /* White background color */
+  color: #0052cc; /* Text color to match the theme */
+}
+
+footer h5 {
+  font-weight: 600; /* Make headings bold */
+}
+
+footer ul li a {
+  font-size: 0.9rem; /* Adjust font size for links */
+  padding: 0.2rem 0; /* Add vertical padding */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+}
+footer img {
+  filter: brightness(100) ;
+ 
+}
+.logo-container {
+  display: inline-block;
+  // background-color: #0052cc; /* Background color for the container */
+  padding: 4px; /* Padding around the image */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
+
+footer ul li a:hover {
+  color: #0052cc; /* Change text color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+footer small {
+  font-size: 0.8rem; /* Adjust font size for the copyright text */
+}

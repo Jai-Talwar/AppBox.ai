@@ -1,0 +1,266 @@
+{
+  "data": {
+    "marketplaceApp": {
+      "name": "Response Templates for Jira. Pro",
+      "appKey": "com.appbox.ai.response.templates",
+      "appId": "1228072",
+      "entityStatus": "ACTIVE",
+      "slug": "response-templates-for-jira-pro",
+      "tagline": "Create canned response templates, with dynamic variables, respond quickly to tickets, Boost productivity for service desk teams",
+      "privacyPolicyUrl": "https://appbox.ai/privacy-policy/",
+      "listingStatus": "PUBLIC",
+      "createdAt": "2022-04-19T04:49:21.339Z",
+      "marketingLabels": ["jira-servicedesk", "jira-software"],
+      "googleAnalyticsId": "UA-181882142-7",
+      "googleAnalytics4Id": null,
+      "summary": "Use Response Templates for JIRA. Free to create powerful and dynamic response templates for your team. \r\nWorks with Service Desk Teams and Support Tickets!\r\n\r\nUse Cases\r\n- Steps to Reproduce Bugs\r\n- Test Cases\r\n- Support Responses",
+      "jsdWidgetKey": null,
+      "categories": [
+        { "name": "Workflow", "__typename": "MarketplaceAppCategory" },
+        { "name": "IT & helpdesk", "__typename": "MarketplaceAppCategory" },
+        { "name": "Custom fields", "__typename": "MarketplaceAppCategory" },
+        { "name": "Utilities", "__typename": "MarketplaceAppCategory" }
+      ],
+      "wikiUrl": null,
+      "forumsUrl": null,
+      "isAtlassianCommunityEnabled": true,
+      "issueTrackerUrl": "https://appbox.atlassian.net/servicedesk/customer/portal/12",
+      "supportTicketSystemUrl": "https://appbox.atlassian.net/servicedesk/customer/portal/12",
+      "statusPageUrl": null,
+      "logo": {
+        "original": { "id": "081f3c4a-fc59-4100-b3f6-18a83e148536", "width": 258, "height": 257, "__typename": "MarketplaceImageFile" },
+        "highResolution": { "id": "fd10a09a-4b19-455b-9c15-a78156f35933", "width": 144, "height": 143, "__typename": "MarketplaceImageFile" },
+        "__typename": "MarketplaceListingImage"
+      },
+      "reviewSummary": { "rating": 4.0, "count": 3, "__typename": "MarketplaceAppReviewSummary" },
+      "programs": null,
+      "__typename": "MarketplaceApp",
+      "publicCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1000004", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "privateCloudVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "allServerDCAppVersions": { "totalCount": 0, "__typename": "MarketplaceAppVersionConnection" },
+      "productHostingOptions": ["CLOUD"],
+      "cloudAppVersions": {
+        "totalCount": 5,
+        "edges": [
+          {
+            "node": {
+              "buildNumber": "1000004",
+              "youtubeId": null,
+              "moreDetails": "<ul> </ul> <p>        Use Response Templates for JIRA.Pro and Create robust and dynamic response templates for your team. </p> <p>        Works with Service Desk Teams and Support Tickets! </p> <p>        Use Cases </p> <ul>  <li>Steps to Reproduce Bugs        <li>Test Cases        <li>Support Responses        <li>Release Announcements  <li>Custom Ticket Variables </ul>",
+              "paymentModel": "PAID_VIA_ATLASSIAN",
+              "learnMoreUrl": null,
+              "endUserLicenseAgreementUrl": "https://appbox.ai/eula-of-apps-from-appbox-ai/",
+              "documentationUrl": "https://support.appbox.ai/docs/response-template-for-jira/",
+              "purchaseUrl": null,
+              "isSupported": true,
+              "releaseDate": "2023-01-22T14:41:40.816Z",
+              "releaseNotes": "<p>  - Increased the per-project limit from 30 to 50. </p> <p>  - fixed a few minor bugs. </p> <p>  - updated internal libraries with latest version. </p>",
+              "releaseSummary": "Enhancements",
+              "releaseNotesUrl": null,
+              "version": "1.0.4-AC",
+              "heroImage": null,
+              "highlights": [
+                {
+                  "title": "Response Templates",
+                  "caption": null,
+                  "summary": "<p>  Respond faster and efficiently. Create ReUsable templates and make them dynamic using issue / project / user attributes. </p> <p>  You can create templates for your team at Global / Project / Personal levels. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "2e3a6d6f-65fe-4b04-9726-037a82bcca8e", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "b3b714ae-c8f9-471a-b7b6-1ec519dfe213",
+                      "width": 870,
+                      "height": 494,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "bb8343dc-47ed-42e6-95b1-7cbb568f3c98",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "bb8343dc-47ed-42e6-95b1-7cbb568f3c98",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Response Templates",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Dynamic Templates",
+                  "caption": null,
+                  "summary": "<p>  Use Jira Custom fields (Standard and Application defined) as dynamic variables. </p> <p>  You have same Jira Editor to create Response Templates, You can also mark templates as favorite </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "f883c263-0655-44c9-9a66-ade4d6a8c38c", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "e37e6708-4987-48d8-9d6f-74c38e968f12",
+                      "width": 870,
+                      "height": 494,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "3df019c5-63a9-4a75-a9b9-d3625f92daf4",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "3df019c5-63a9-4a75-a9b9-d3625f92daf4",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Dynamic Templates",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Templates Inside Issue View.",
+                  "caption": null,
+                  "summary": "<p>  Familiar way of commenting. Same Powerful Jira editor is available to add / edit your response templates. </p> <p>  Favorite templates can be accessed faster with just one click. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "928ba3d3-a419-4008-a6ef-b0ff4a31b82a", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "e3cad40d-9258-4eb8-b219-438fc7a0725e",
+                      "width": 870,
+                      "height": 494,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "73057d9f-43ff-4afc-b675-531f76c8122a",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "73057d9f-43ff-4afc-b675-531f76c8122a",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Templates Inside Issue View.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                }
+              ],
+              "screenshots": [
+                {
+                  "caption": null,
+                  "image": {
+                    "original": { "id": "a8ae3ba6-8dff-43cf-b934-5092752e43fc", "width": 2205, "height": 911, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "d2d77c05-a0bc-4a0c-81e0-45ca97409c33",
+                      "width": 1840,
+                      "height": 760,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                }
+              ],
+              "deployment": {
+                "__typename": "MarketplaceConnectAppDeployment",
+                "compatibleProducts": [
+                  {
+                    "id": "jira",
+                    "name": "Jira",
+                    "__typename": "CompatibleAtlassianCloudProduct",
+                    "atlassianProduct": {
+                      "name": "Jira",
+                      "hostingOptions": ["CLOUD", "SERVER", "DATA_CENTER"],
+                      "__typename": "MarketplaceSupportedAtlassianProduct"
+                    }
+                  }
+                ],
+                "scopes": [
+                  { "id": "DELETE", "capability": "Delete data from the host application", "__typename": "ConnectAppScope" },
+                  { "id": "WRITE", "capability": "Write data to the host application", "__typename": "ConnectAppScope" },
+                  { "id": "READ", "capability": "Read data from the host application", "__typename": "ConnectAppScope" }
+                ]
+              },
+              "__typename": "MarketplaceAppVersion"
+            },
+            "__typename": "MarketplaceAppVersionEdge"
+          }
+        ],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "serverAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "dataCenterAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "watchersInfo": { "isUserWatchingApp": true, "watchersCount": 4, "__typename": "MarketplaceAppWatchersInfo" },
+      "partner": {
+        "name": "Appbox.ai",
+        "id": "1218838",
+        "slug": "appbox-ai",
+        "partnerType": null,
+        "programs": { "isCloudAppSecuritySelfAssessmentDone": false, "__typename": "MarketplacePartnerPrograms" },
+        "partnerTier": null,
+        "support": {
+          "contactDetails": {
+            "websiteUrl": "https://support.appbox.ai",
+            "emailId": "support@appbox.ai",
+            "phoneNumber": null,
+            "__typename": "MarketplacePartnerSupportContact"
+          },
+          "availability": null,
+          "__typename": "MarketplacePartnerSupport"
+        },
+        "logo": {
+          "original": { "id": "3df68afa-2d78-4d59-98c5-c0b7e3f59ae8", "width": 444, "height": 444, "__typename": "MarketplaceImageFile" },
+          "highResolution": { "id": "4e025100-0ea4-4363-a6be-7edce8881f44", "width": 144, "height": 144, "__typename": "MarketplaceImageFile" },
+          "__typename": "MarketplaceListingImage"
+        },
+        "__typename": "MarketplacePartner"
+      },
+      "distribution": {
+        "downloadCount": 0,
+        "installationCount": 38,
+        "isPreinstalledInServerDC": false,
+        "isPreinstalledInCloud": false,
+        "__typename": "MarketplaceAppDistribution"
+      }
+    }
+  },
+  "extensions": {
+    "gateway": {
+      "request_id": "858a3b4565a005ef",
+      "crossRegion": false,
+      "edgeCrossRegion": false,
+      "deprecatedFieldsUsed": [
+        "CompatibleAtlassianProduct.id : Use field `atlassianProduct.id` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/id)",
+        "CompatibleAtlassianProduct.name : Use field `atlassianProduct.name` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/name)"
+      ]
+    }
+  }
+}

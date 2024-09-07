@@ -1,0 +1,318 @@
+{
+  "data": {
+    "marketplaceApp": {
+      "name": "Risk Analyzer for Jira. Free",
+      "appKey": "com.appbox.ai.risk.register",
+      "appId": "1225439",
+      "entityStatus": "ACTIVE",
+      "slug": "risk-analyzer-for-jira-free",
+      "tagline": "Register, Measure & Monitor Risk",
+      "privacyPolicyUrl": "https://appbox.ai/privacy-policy/",
+      "listingStatus": "PUBLIC",
+      "createdAt": "2021-06-13T01:47:53.989Z",
+      "marketingLabels": ["jira-servicedesk", "jira-software"],
+      "googleAnalyticsId": "UA-181882142-6",
+      "googleAnalytics4Id": null,
+      "summary": "Identify potential risks in advance, analyze them and take precautionary steps to reduce/curb the risk.",
+      "jsdWidgetKey": null,
+      "categories": [
+        { "name": "Charts & diagramming", "__typename": "MarketplaceAppCategory" },
+        { "name": "Reports", "__typename": "MarketplaceAppCategory" },
+        { "name": "Project management", "__typename": "MarketplaceAppCategory" },
+        { "name": "Dependency management", "__typename": "MarketplaceAppCategory" }
+      ],
+      "wikiUrl": null,
+      "forumsUrl": null,
+      "isAtlassianCommunityEnabled": true,
+      "issueTrackerUrl": "https://support.appbox.ai",
+      "supportTicketSystemUrl": "https://support.appbox.ai/servicedesk/riskregister",
+      "statusPageUrl": null,
+      "logo": {
+        "original": { "id": "b0b2187f-76a9-4e27-ad9e-45ea6a46d352", "width": 307, "height": 312, "__typename": "MarketplaceImageFile" },
+        "highResolution": { "id": "a160c56a-4e5a-4246-9364-10ec3d77af63", "width": 141, "height": 144, "__typename": "MarketplaceImageFile" },
+        "__typename": "MarketplaceListingImage"
+      },
+      "reviewSummary": { "rating": 3.6363637447357178, "count": 11, "__typename": "MarketplaceAppReviewSummary" },
+      "programs": null,
+      "__typename": "MarketplaceApp",
+      "publicCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1000010", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "privateCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1000008", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "publicServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "allServerDCAppVersions": { "totalCount": 0, "__typename": "MarketplaceAppVersionConnection" },
+      "productHostingOptions": ["CLOUD"],
+      "cloudAppVersions": {
+        "totalCount": 11,
+        "edges": [
+          {
+            "node": {
+              "buildNumber": "1000010",
+              "youtubeId": null,
+              "moreDetails": "<ul>  <li>Risk register for each project to track its risks using impact &amp; probability matrix    <li>Identify areas of risk reduction    <li>Visually see the risks affecting your projects    <li>Risk monitoring and control    <li>Powerful grid to set and update risks on multiple issues    <li>Plan, Develop and Track a risk mitigation strategy    <li>Generate powerful reports    <li>Improve chances of successful project completion and reduce the consequences of risks    <li>☂️ <a href=\"https://support.appbox.ai/servicedesk/checklist\">service desk</a> or email.\uD83D\uDD25 Top new vendor for 2021.  </ul> <p>    Note: Since the launch of Risk Register in June'21, we've grown the tech, team, security, &amp; product; it now costs more to operate, and we've carried that expense which is not sustainable. To continue expanding our tech and keep the standards, it will be a paid app starting Q3-2023. At that time, the cost per user will be around 0.50 USD per user. We will keep a free version with limited features, and users can switch without any data loss. Feel free to submit feedback during this time through our support portal. </p>",
+              "paymentModel": "FREE",
+              "learnMoreUrl": null,
+              "endUserLicenseAgreementUrl": "http://appbox.ai/eula-of-apps-from-appbox-ai/",
+              "documentationUrl": "https://support.appbox.ai/docs/risk-register-for-jira/",
+              "purchaseUrl": null,
+              "isSupported": true,
+              "releaseDate": "2022-08-07T03:59:56.321Z",
+              "releaseNotes": "<p>    Minor version update </p>",
+              "releaseSummary": "Minor version update",
+              "releaseNotesUrl": null,
+              "version": "1.0.10-AC",
+              "heroImage": null,
+              "highlights": [
+                {
+                  "title": "Customizable Risk Matrix",
+                  "caption": "Customizable Risk Matrix",
+                  "summary": "<p>    Identify and prioritize risks based on their probability and severity. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "a5864f59-c3a8-4f16-a876-cf82030892cf", "width": 1454, "height": 828, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "864e4935-96a3-4e35-9628-b917dc1bd1e6",
+                      "width": 870,
+                      "height": 495,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "b30e487b-ecb8-4d8c-bece-6aa95151c0a9",
+                        "width": 1650,
+                        "height": 1034,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": null,
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Customizable Risk Matrix",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Plan Project Risks",
+                  "caption": "Plan Project Risks",
+                  "summary": "<p>    Ensure your projects run as smoothly as possible. Manage risk on individual issues or update in bulk via powerful issue grid. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "0a489945-5ab2-44db-9b6e-bd18e0260b45", "width": 1478, "height": 841, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "66acca84-7e1c-4beb-a5cd-4bb6e5ae02e2",
+                      "width": 870,
+                      "height": 495,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "15961213-f786-4d08-bf19-7e287738a2e2",
+                        "width": 2558,
+                        "height": 841,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": null,
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Plan Project Risks",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Powerful Reports",
+                  "caption": "Powerful Reports",
+                  "summary": "<p>    Quickly visualize risk assessment data. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "65d397c4-50da-4816-9b9c-ff45ecf384cc", "width": 1898, "height": 1080, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "06dea512-1acc-4410-bb0b-0c59403af89c",
+                      "width": 870,
+                      "height": 495,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "a5a3e646-9bdb-4d97-87cb-164f6fa550f5",
+                        "width": 1944,
+                        "height": 1080,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "bfafd235-978a-4308-85e9-191bd8eb6f14",
+                        "width": 1620,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Powerful Reports",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                }
+              ],
+              "screenshots": [
+                {
+                  "caption": "Grid View",
+                  "image": {
+                    "original": { "id": "8fc4a915-877c-425c-aa69-681b68262b5f", "width": 2560, "height": 1116, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "385b7cc0-2876-45b0-9de2-d09398a3fb13",
+                      "width": 1840,
+                      "height": 802,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Risk Matrix",
+                  "image": {
+                    "original": { "id": "fe5b5ce2-b967-4876-853a-367ffd624c0b", "width": 1650, "height": 1034, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Custom Probability",
+                  "image": {
+                    "original": { "id": "b66ae7c6-53a1-4d08-9025-6b39f4c8404c", "width": 2195, "height": 748, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Custom Impact",
+                  "image": {
+                    "original": { "id": "3fce1d0e-b3ba-4d88-b161-d421af5beff6", "width": 2197, "height": 817, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Custom risk levels",
+                  "image": {
+                    "original": { "id": "d8b6b3c7-0e2c-4ec0-bb8b-0de79f5d45ac", "width": 2197, "height": 722, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": null,
+                  "image": {
+                    "original": { "id": "9f4e69d0-0cce-4675-b635-90df1cea79a6", "width": 1944, "height": 1080, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "20f774f7-f73d-4a6d-8512-f34eb02b7c83",
+                      "width": 1620,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": null,
+                  "image": {
+                    "original": { "id": "2387216a-2295-4c68-a2ea-2f316b119995", "width": 1760, "height": 1090, "__typename": "MarketplaceImageFile" },
+                    "highResolution": null,
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                }
+              ],
+              "deployment": {
+                "__typename": "MarketplaceConnectAppDeployment",
+                "compatibleProducts": [
+                  {
+                    "id": "jira",
+                    "name": "Jira",
+                    "__typename": "CompatibleAtlassianCloudProduct",
+                    "atlassianProduct": {
+                      "name": "Jira",
+                      "hostingOptions": ["CLOUD", "SERVER", "DATA_CENTER"],
+                      "__typename": "MarketplaceSupportedAtlassianProduct"
+                    }
+                  }
+                ],
+                "scopes": [
+                  { "id": "DELETE", "capability": "Delete data from the host application", "__typename": "ConnectAppScope" },
+                  { "id": "WRITE", "capability": "Write data to the host application", "__typename": "ConnectAppScope" },
+                  { "id": "READ", "capability": "Read data from the host application", "__typename": "ConnectAppScope" }
+                ]
+              },
+              "__typename": "MarketplaceAppVersion"
+            },
+            "__typename": "MarketplaceAppVersionEdge"
+          }
+        ],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "serverAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "dataCenterAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "watchersInfo": { "isUserWatchingApp": true, "watchersCount": 45, "__typename": "MarketplaceAppWatchersInfo" },
+      "partner": {
+        "name": "Appbox.ai",
+        "id": "1218838",
+        "slug": "appbox-ai",
+        "partnerType": null,
+        "programs": { "isCloudAppSecuritySelfAssessmentDone": false, "__typename": "MarketplacePartnerPrograms" },
+        "partnerTier": null,
+        "support": {
+          "contactDetails": {
+            "websiteUrl": "https://support.appbox.ai",
+            "emailId": "support@appbox.ai",
+            "phoneNumber": null,
+            "__typename": "MarketplacePartnerSupportContact"
+          },
+          "availability": null,
+          "__typename": "MarketplacePartnerSupport"
+        },
+        "logo": {
+          "original": { "id": "3df68afa-2d78-4d59-98c5-c0b7e3f59ae8", "width": 444, "height": 444, "__typename": "MarketplaceImageFile" },
+          "highResolution": { "id": "4e025100-0ea4-4363-a6be-7edce8881f44", "width": 144, "height": 144, "__typename": "MarketplaceImageFile" },
+          "__typename": "MarketplaceListingImage"
+        },
+        "__typename": "MarketplacePartner"
+      },
+      "distribution": {
+        "downloadCount": 3,
+        "installationCount": 488,
+        "isPreinstalledInServerDC": false,
+        "isPreinstalledInCloud": false,
+        "__typename": "MarketplaceAppDistribution"
+      }
+    }
+  },
+  "extensions": {
+    "gateway": {
+      "request_id": "8eb589d5dccd807c",
+      "crossRegion": false,
+      "edgeCrossRegion": false,
+      "deprecatedFieldsUsed": [
+        "CompatibleAtlassianProduct.id : Use field `atlassianProduct.id` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/id)",
+        "CompatibleAtlassianProduct.name : Use field `atlassianProduct.name` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/name)"
+      ]
+    }
+  }
+}

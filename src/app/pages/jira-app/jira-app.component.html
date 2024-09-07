@@ -1,0 +1,99 @@
+<div class="container my-lg-5">
+  <div class="d-flex">
+    <img
+      height="75px"
+      class="me-3"
+      [src]="'https://marketplace-cdn.atlassian.com/files/' + app.data.marketplaceApp.logo.highResolution.id + '?fileType=image&mode=full-fit'" />
+    <div class="me-3">
+      <h3 class="mb-1">
+        {{ app.data.marketplaceApp.name }}
+      </h3>
+      <p class="small mb-0">{{ app.data.marketplaceApp.tagline }}</p>
+      <p class="small text-muted mt-0">
+        <span title="Rating: {{ app.data.marketplaceApp.reviewSummary.rating }} / 4">
+          <i class="bi bi-star-fill text-warning" *ngFor="let _ of [].constructor(fullStars)"></i>
+          <i class="bi bi-star-half text-warning" *ngFor="let _ of [].constructor(halfStars)"></i>
+        </span>
+        &nbsp;
+        <span class="badge rounded-pill bg-secondary">{{ app.data.marketplaceApp.reviewSummary.count }}</span>
+        <i class="bi bi-download ms-3"></i>
+        &nbsp;
+        <b>{{ app.data.marketplaceApp.distribution.installationCount | number }}</b>
+        installs &nbsp;&nbsp;
+        <span class="text-black-50 badge bg-light-dark me-2" *ngFor="let category of app.data.marketplaceApp.categories">{{ category.name }}</span>
+        &nbsp;&nbsp;&nbsp;
+      </p>
+    </div>
+    <div class="ms-auto" style="width: 120px">
+      <a href="https://marketplace.atlassian.com/apps/{{ appId }}/{{ appName }}?ref=appbox.ai" target="_blank" class="btn btn-warning">Try it free</a>
+      <p class="mt-4">
+        <i class="bi bi-cloud text-primary ms-3"></i>
+        &nbsp;
+        <span class="text-muted small">Cloud</span>
+      </p>
+    </div>
+  </div>
+  <div></div>
+  <p class="my-4">
+    {{ app.data.marketplaceApp.summary }}
+  </p>
+  <div class="highlights">
+    <div class="highlight" *ngFor="let highlight of app.data.marketplaceApp.cloudAppVersions.edges[0].node.highlights; let i = index">
+      <div class="row mb-5">
+        <ng-container *ngIf="i % 2 === 0">
+          <div class="col-lg-7">
+            <img
+              class="img-fluid"
+              [src]="
+                'https://marketplace-cdn.atlassian.com/files/' + highlight.croppedScreenshot.highResolution.id + '?fileType=image&mode=full-fit'
+              " />
+          </div>
+          <div class="col-lg-5 my-auto">
+            <h4 class="fw-bold mb-3">
+              <span class="highlight">{{ highlight.title }}</span>
+            </h4>
+            <p [innerHTML]="highlight.summary"></p>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="i % 2 !== 0">
+          <div class="col-lg-5 my-auto">
+            <h4 class="fw-bold mb-3">
+              <span>{{ highlight.title }}</span>
+            </h4>
+            <p [innerHTML]="highlight.summary"></p>
+          </div>
+          <div class="col-lg-7">
+            <img
+              class="img-fluid"
+              [src]="
+                'https://marketplace-cdn.atlassian.com/files/' + highlight.croppedScreenshot.highResolution.id + '?fileType=image&mode=full-fit'
+              " />
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-12 text-center">
+      <div class="fs-2">
+        Try it free for a month,
+        <span>free forever</span>
+        upto 10 users
+      </div>
+      <a
+        href="https://marketplace.atlassian.com/apps/{{ appId }}/{{ appName }}?ref=appbox.ai"
+        target="_blank"
+        class="btn btn-primary btn-lg ms-3 mt-3">
+        <img class="image-invert atlassian-logo-button" src="assets/images/logos/atlassian-icon.png" />
+        Get it on Marketplace
+      </a>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-8">
+      <h4>More details</h4>
+      <hr />
+      <p [innerHTML]="app.data.marketplaceApp.cloudAppVersions.edges[0].node.moreDetails"></p>
+    </div>
+  </div>
+</div>

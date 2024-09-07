@@ -1,0 +1,364 @@
+{
+  "data": {
+    "marketplaceApp": {
+      "name": "Backlog Prioritization for Jira. Pro",
+      "appKey": "com.appbox.ai.backlog.prioritization",
+      "appId": "1224236",
+      "entityStatus": "ACTIVE",
+      "slug": "backlog-prioritization-for-jira-pro",
+      "tagline": "Prioritize your Project backlog like a PRO. Use ICE, RICE, WSJF (SAFe) or create your custom priority matrix",
+      "privacyPolicyUrl": "https://appbox.ai/privacy-policy/",
+      "listingStatus": "PUBLIC",
+      "createdAt": "2021-01-02T03:36:24.853Z",
+      "marketingLabels": ["jira-servicedesk", "jira-software"],
+      "googleAnalyticsId": "UA-181882142-5",
+      "googleAnalytics4Id": null,
+      "summary": "Backlog Prioritization for JIRA is a project management and collaboration tool for teams that need visibility and productivity. Use you own custom formula or a standard scoring frameworks like WSJF, RICE or ICE. Work first on what matters the most.",
+      "jsdWidgetKey": null,
+      "categories": [
+        { "name": "Reports", "__typename": "MarketplaceAppCategory" },
+        { "name": "Integrations", "__typename": "MarketplaceAppCategory" },
+        { "name": "Project management", "__typename": "MarketplaceAppCategory" },
+        { "name": "Tasks", "__typename": "MarketplaceAppCategory" }
+      ],
+      "wikiUrl": null,
+      "forumsUrl": null,
+      "isAtlassianCommunityEnabled": true,
+      "issueTrackerUrl": "https://support.appbox.ai",
+      "supportTicketSystemUrl": "https://appbox.atlassian.net/servicedesk/customer/portal/10",
+      "statusPageUrl": null,
+      "logo": {
+        "original": { "id": "7cb651c6-c6c0-4075-970a-0dd6c26184e7", "width": 307, "height": 312, "__typename": "MarketplaceImageFile" },
+        "highResolution": { "id": "f812efd0-8dcc-4e1f-90bd-047c1522cb5f", "width": 141, "height": 144, "__typename": "MarketplaceImageFile" },
+        "__typename": "MarketplaceListingImage"
+      },
+      "reviewSummary": { "rating": 3.5217392444610596, "count": 23, "__typename": "MarketplaceAppReviewSummary" },
+      "programs": null,
+      "__typename": "MarketplaceApp",
+      "publicCloudVersion": {
+        "edges": [{ "node": { "buildNumber": "1002005", "__typename": "MarketplaceAppVersion" }, "__typename": "MarketplaceAppVersionEdge" }],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "privateCloudVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateServerVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "publicDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "privateDataCenterVersion": { "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "allServerDCAppVersions": { "totalCount": 0, "__typename": "MarketplaceAppVersionConnection" },
+      "productHostingOptions": ["CLOUD"],
+      "cloudAppVersions": {
+        "totalCount": 22,
+        "edges": [
+          {
+            "node": {
+              "buildNumber": "1002005",
+              "youtubeId": null,
+              "moreDetails": "<p>                                            Backlog Prioritization for JIRA enables you to organize your work more efficiently. Using existing ticket/task fields, you can create custom scoring for each item in your backlog or use a standard out-of-box scoring framework like WSJF, RICE or ICE. </p> <p>                                      Features: </p> <ul>  <li>Interactive priority matrix                      <li>Powerful issue Grid              <li>Custom fields                      <li>JQL &amp; Quick Filters                  <li>Save search as views                    <li>Inbuilt Reports \uD83D\uDCCA                <li>New! - Custom Permissions       </ul> <p>                              \uD83D\uDD25 Top new vendor: 2021-22 </p>",
+              "paymentModel": "PAID_VIA_ATLASSIAN",
+              "learnMoreUrl": null,
+              "endUserLicenseAgreementUrl": "https://appbox.ai/privacy-policy/",
+              "documentationUrl": "https://support.appbox.ai/docs/backlog-prioritization-for-jira/",
+              "purchaseUrl": null,
+              "isSupported": true,
+              "releaseDate": "2022-08-07T04:58:25.125Z",
+              "releaseNotes": "<p>  New column support in prioritization grid </p> <p>  - Epic Link </p> <p>  - Sprint </p> <p>  Bug Fix </p> <p>  - prioritization updates (inside ticket) were not updating custom variables, fixed now. </p>",
+              "releaseSummary": "New Columns and Bug Fixes",
+              "releaseNotesUrl": null,
+              "version": "1.2.5-AC",
+              "heroImage": null,
+              "highlights": [
+                {
+                  "title": "Powerful Prioritization Grid",
+                  "caption": "Searching, sorting, pagination - load custom columns. JQL Editor to load issues. Quick Filters. New! - Save your search.",
+                  "summary": "<p>      Searching, sorting, pagination - load custom columns. JQL Editor to load issues. Quick Filters. New! - Save your search. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "e206bd06-946b-4b0c-897a-8c0fea6b16ce", "width": 1580, "height": 899, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "b7c69f37-2937-444f-a3c2-43383993eb7d",
+                      "width": 870,
+                      "height": 495,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "de95214b-4870-4bbf-acb5-c5c69a515258",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "de95214b-4870-4bbf-acb5-c5c69a515258",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Searching, sorting, pagination - load custom columns. JQL Editor to load issues. Quick Filters. New! - Save your search.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Use existing or create custom methods",
+                  "caption": "Pre-loaded with the most used prioritization methods, edit them, or create your own. Every team is different. You decide what works best for your team.",
+                  "summary": "<p>    Pre-loaded with the most used prioritization methods, edit them, or create your own. Every team is different. You decide what works best for your team. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "c9ac6bb5-531d-43ef-b172-2955a0c379b1", "width": 1582, "height": 900, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "cbe02925-c276-4fc0-a471-5678fd2ddc58",
+                      "width": 870,
+                      "height": 494,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "29a1fbd7-b49d-4377-bd81-4ae71134a6ea",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "29a1fbd7-b49d-4377-bd81-4ae71134a6ea",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "Pre-loaded with the most used prioritization methods, edit them, or create your own. Every team is different. You decide what works best for your team.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                },
+                {
+                  "title": "Reporting, Built-in",
+                  "caption": "No matter what agile technique you use, scrum, kanban, or XP. It's always valuable to visualize your work.",
+                  "summary": "<p>    Clear visibility into your priorities. </p>",
+                  "croppedScreenshot": {
+                    "original": { "id": "2372f7cc-25cf-4aac-96c7-6e86dadf7c86", "width": 1575, "height": 896, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "f0c58f13-bef4-4c84-8dae-52c1d31a2e45",
+                      "width": 870,
+                      "height": 494,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "screenshot": {
+                    "image": {
+                      "original": {
+                        "id": "07096bd6-5ca2-4dc2-8aaf-5b49596a8a0f",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "highResolution": {
+                        "id": "07096bd6-5ca2-4dc2-8aaf-5b49596a8a0f",
+                        "width": 1840,
+                        "height": 900,
+                        "__typename": "MarketplaceImageFile"
+                      },
+                      "__typename": "MarketplaceListingImage"
+                    },
+                    "caption": "No matter what agile technique you use, scrum, kanban, or XP. It's always valuable to visualize your work.",
+                    "__typename": "MarketplaceListingScreenshot"
+                  },
+                  "__typename": "MarketplaceListingHighlight"
+                }
+              ],
+              "screenshots": [
+                {
+                  "caption": "JIRA backlog prioritization - edit priorities from within the ticket",
+                  "image": {
+                    "original": { "id": "256efa98-5ca1-4dbc-90c4-80c701f71885", "width": 2863, "height": 1636, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "41dea099-7e03-4310-a638-7b9acd79462e",
+                      "width": 1575,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - configure read-only or editable mode.",
+                  "image": {
+                    "original": { "id": "d57c04b9-4c28-4195-88fe-354a711d87f6", "width": 2874, "height": 1640, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "fe3aef90-3b67-4b19-abae-c226702ba744",
+                      "width": 1577,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - save filters as views",
+                  "image": {
+                    "original": { "id": "bb3a5e58-72e7-4aae-8870-c9dd7641fa02", "width": 2852, "height": 1564, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "fe9545ad-da7f-4b8a-95d4-298dc0cdf5c0",
+                      "width": 1641,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - donut report",
+                  "image": {
+                    "original": { "id": "2ed3bcf5-09b5-43df-9398-c7179ce9aaa5", "width": 2846, "height": 1562, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "39ba2b79-f993-4a1a-a91b-baa68e6b80e8",
+                      "width": 1639,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - bar graph report",
+                  "image": {
+                    "original": { "id": "7e942d29-cd84-4715-a0d3-261dccdc8120", "width": 2854, "height": 1550, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "c4583815-1ffb-4db8-9aa7-9d3100e496af",
+                      "width": 1657,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - project-specific settings",
+                  "image": {
+                    "original": { "id": "8b22fec5-53db-4ab3-a3a1-27b284a221f0", "width": 2850, "height": 1562, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "fff629e9-c77f-430d-9022-1a5ac3dee2a5",
+                      "width": 1642,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "JIRA backlog prioritization - enable / disable projects from single page",
+                  "image": {
+                    "original": { "id": "1e90fd67-352e-405c-9d8b-e566bf8c1c73", "width": 2850, "height": 1258, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "f6b4dcd6-0b84-4a5a-9145-6d2677005229",
+                      "width": 1840,
+                      "height": 812,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                },
+                {
+                  "caption": "Backlog Prioritization Grid",
+                  "image": {
+                    "original": { "id": "677e59ca-59da-415f-bf28-dd04079b832b", "width": 2856, "height": 1586, "__typename": "MarketplaceImageFile" },
+                    "highResolution": {
+                      "id": "6accec9e-4914-457a-84aa-433de81b489a",
+                      "width": 1620,
+                      "height": 900,
+                      "__typename": "MarketplaceImageFile"
+                    },
+                    "__typename": "MarketplaceListingImage"
+                  },
+                  "__typename": "MarketplaceListingScreenshot"
+                }
+              ],
+              "deployment": {
+                "__typename": "MarketplaceConnectAppDeployment",
+                "compatibleProducts": [
+                  {
+                    "id": "jira",
+                    "name": "Jira",
+                    "__typename": "CompatibleAtlassianCloudProduct",
+                    "atlassianProduct": {
+                      "name": "Jira",
+                      "hostingOptions": ["CLOUD", "SERVER", "DATA_CENTER"],
+                      "__typename": "MarketplaceSupportedAtlassianProduct"
+                    }
+                  }
+                ],
+                "scopes": [
+                  { "id": "DELETE", "capability": "Delete data from the host application", "__typename": "ConnectAppScope" },
+                  { "id": "WRITE", "capability": "Write data to the host application", "__typename": "ConnectAppScope" },
+                  { "id": "READ", "capability": "Read data from the host application", "__typename": "ConnectAppScope" }
+                ]
+              },
+              "__typename": "MarketplaceAppVersion"
+            },
+            "__typename": "MarketplaceAppVersionEdge"
+          }
+        ],
+        "__typename": "MarketplaceAppVersionConnection"
+      },
+      "serverAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "dataCenterAppVersions": { "totalCount": 0, "edges": [], "__typename": "MarketplaceAppVersionConnection" },
+      "watchersInfo": { "isUserWatchingApp": true, "watchersCount": 92, "__typename": "MarketplaceAppWatchersInfo" },
+      "partner": {
+        "name": "Appbox.ai",
+        "id": "1218838",
+        "slug": "appbox-ai",
+        "partnerType": null,
+        "programs": { "isCloudAppSecuritySelfAssessmentDone": false, "__typename": "MarketplacePartnerPrograms" },
+        "partnerTier": null,
+        "support": {
+          "contactDetails": {
+            "websiteUrl": "https://support.appbox.ai",
+            "emailId": "support@appbox.ai",
+            "phoneNumber": null,
+            "__typename": "MarketplacePartnerSupportContact"
+          },
+          "availability": null,
+          "__typename": "MarketplacePartnerSupport"
+        },
+        "logo": {
+          "original": { "id": "3df68afa-2d78-4d59-98c5-c0b7e3f59ae8", "width": 444, "height": 444, "__typename": "MarketplaceImageFile" },
+          "highResolution": { "id": "4e025100-0ea4-4363-a6be-7edce8881f44", "width": 144, "height": 144, "__typename": "MarketplaceImageFile" },
+          "__typename": "MarketplaceListingImage"
+        },
+        "__typename": "MarketplacePartner"
+      },
+      "distribution": {
+        "downloadCount": 7,
+        "installationCount": 1309,
+        "isPreinstalledInServerDC": false,
+        "isPreinstalledInCloud": false,
+        "__typename": "MarketplaceAppDistribution"
+      }
+    }
+  },
+  "extensions": {
+    "gateway": {
+      "request_id": "9f17a352483979c0",
+      "crossRegion": false,
+      "edgeCrossRegion": false,
+      "deprecatedFieldsUsed": [
+        "CompatibleAtlassianProduct.id : Use field `atlassianProduct.id` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/id)",
+        "CompatibleAtlassianProduct.name : Use field `atlassianProduct.name` (marketplaceApp/versions/edges/node/deployment/compatibleProducts/name)"
+      ]
+    }
+  }
+}
